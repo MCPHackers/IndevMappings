@@ -1,0 +1,29 @@
+CLASS net/minecraft/a/a/h net/minecraft/game/level/WorldClient
+	FIELD a worldClientInt1 I
+	FIELD b worldClientList1 Ljava/util/List;
+	FIELD c worldObj Lnet/minecraft/a/a/g;
+	FIELD d worldWidth I
+	FIELD e worldLength I
+	FIELD f worldHeight I
+	FIELD g worldClientByteArray1 [B
+	FIELD h blocks [B
+	FIELD i worldClientIntArray1 [I
+	FIELD j worldClientList2 Ljava/util/List;
+	FIELD k worldClientList3 Ljava/util/List;
+	FIELD l worldClientList4 Ljava/util/List;
+	FIELD m worldClientList5 Ljava/util/List;
+	FIELD n worldClientIntArray2 [I
+	FIELD o worldClientByteArray2 [B
+	FIELD p worldBlockPositionType Lnet/minecraft/a/a/c;
+	FIELD q worldClientInt2 I
+	FIELD r dayNightInt I
+	METHOD <init> (Lnet/minecraft/a/a/g;)V
+		ARG 1 world
+	METHOD a tick ()V
+	METHOD a updateDaylightCycle (I)V
+	METHOD a updateSkylight (IIII)V
+	METHOD a updateBlockLight (IIIIII)V
+	METHOD b skylightUpdatesGUI ()Ljava/lang/String;
+	METHOD b worldClientMethod2 (I)V
+	METHOD b lightingSomething (IIIIII)V
+	METHOD c worldClientMethod1 ()[I
