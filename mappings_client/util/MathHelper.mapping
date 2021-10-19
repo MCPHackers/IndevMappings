@@ -1,4 +1,4 @@
-CLASS a/a misc/MathHelper
+CLASS a/a util/MathHelper
 	FIELD a SIN_TABLE [F
 	METHOD a floor_double (D)I
 	METHOD a sin (F)F

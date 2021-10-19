@@ -1,4 +1,4 @@
-CLASS a/b misc/IProgressUpdate
+CLASS a/b util/IProgressUpdate
 	METHOD a setLoadingProgress (I)V
 		ARG 1 progress
 	METHOD a displayProgressMessage (Ljava/lang/String;)V
