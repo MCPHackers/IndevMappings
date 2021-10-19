@@ -1,22 +1,22 @@
 CLASS net/minecraft/a/a/b/x net/minecraft/game/block/Block
 	FIELD A sponge Lnet/minecraft/a/a/b/x;
 	FIELD B glass Lnet/minecraft/a/a/b/x;
-	FIELD C woolRed Lnet/minecraft/a/a/b/x;
-	FIELD D woolOrange Lnet/minecraft/a/a/b/x;
-	FIELD E woolYellow Lnet/minecraft/a/a/b/x;
-	FIELD F woolLime Lnet/minecraft/a/a/b/x;
-	FIELD G woolGreen Lnet/minecraft/a/a/b/x;
-	FIELD H woolAquaGreen Lnet/minecraft/a/a/b/x;
-	FIELD I woolCyan Lnet/minecraft/a/a/b/x;
-	FIELD J woolBlue Lnet/minecraft/a/a/b/x;
-	FIELD K woolPurple Lnet/minecraft/a/a/b/x;
-	FIELD L woolIndigo Lnet/minecraft/a/a/b/x;
-	FIELD M woolViolet Lnet/minecraft/a/a/b/x;
-	FIELD N woolMagenta Lnet/minecraft/a/a/b/x;
-	FIELD O woolPink Lnet/minecraft/a/a/b/x;
-	FIELD P woolDarkGray Lnet/minecraft/a/a/b/x;
-	FIELD Q woolGray Lnet/minecraft/a/a/b/x;
-	FIELD R woolWhite Lnet/minecraft/a/a/b/x;
+	FIELD C clothRed Lnet/minecraft/a/a/b/x;
+	FIELD D clothOrange Lnet/minecraft/a/a/b/x;
+	FIELD E clothYellow Lnet/minecraft/a/a/b/x;
+	FIELD F clothChartreuse Lnet/minecraft/a/a/b/x;
+	FIELD G clothGreen Lnet/minecraft/a/a/b/x;
+	FIELD H clothSpringGreen Lnet/minecraft/a/a/b/x;
+	FIELD I clothCyan Lnet/minecraft/a/a/b/x;
+	FIELD J clothCapri Lnet/minecraft/a/a/b/x;
+	FIELD K clothUltramarine Lnet/minecraft/a/a/b/x;
+	FIELD L clothViolet Lnet/minecraft/a/a/b/x;
+	FIELD M clothPurple Lnet/minecraft/a/a/b/x;
+	FIELD N clothMagenta Lnet/minecraft/a/a/b/x;
+	FIELD O clothRose Lnet/minecraft/a/a/b/x;
+	FIELD P clothDarkGray Lnet/minecraft/a/a/b/x;
+	FIELD Q clothGray Lnet/minecraft/a/a/b/x;
+	FIELD R clothWhite Lnet/minecraft/a/a/b/x;
 	FIELD S plantYellow Lnet/minecraft/a/a/b/ad;
 	FIELD T plantRed Lnet/minecraft/a/a/b/ad;
 	FIELD U mushroomBrown Lnet/minecraft/a/a/b/ad;
@@ -27,7 +27,7 @@ CLASS net/minecraft/a/a/b/x net/minecraft/game/block/Block
 	FIELD Z stairSingle Lnet/minecraft/a/a/b/x;
 	FIELD aA stepSound Lnet/minecraft/a/a/b/n;
 	FIELD aB blockParticleGravity F
-	FIELD aC blockMaterial Lnet/minecraft/a/a/d/c;
+	FIELD aC material Lnet/minecraft/a/a/d/c;
 	FIELD aD soundGravelFootstep Lnet/minecraft/a/a/b/n;
 	FIELD aE soundGrassFootstep Lnet/minecraft/a/a/b/n;
 	FIELD aF soundStoneFootstep Lnet/minecraft/a/a/b/n;
@@ -36,20 +36,20 @@ CLASS net/minecraft/a/a/b/x net/minecraft/game/block/Block
 	FIELD aI soundClothFootstep Lnet/minecraft/a/a/b/n;
 	FIELD aJ soundSandFootstep Lnet/minecraft/a/a/b/n;
 	FIELD aK canBlockGrass [Z
-	FIELD aL blockHardness F
+	FIELD aL hardness F
 	FIELD a soundPowderFootstep Lnet/minecraft/a/a/b/n;
-	FIELD aM blockResistance F
+	FIELD aM resistance F
 	FIELD aa brick Lnet/minecraft/a/a/b/x;
 	FIELD ab tnt Lnet/minecraft/a/a/b/x;
 	FIELD ac bookShelf Lnet/minecraft/a/a/b/x;
 	FIELD ad cobblestoneMossy Lnet/minecraft/a/a/b/x;
 	FIELD ae obsidian Lnet/minecraft/a/a/b/x;
-	FIELD af torchWood Lnet/minecraft/a/a/b/x;
+	FIELD af torch Lnet/minecraft/a/a/b/x;
 	FIELD ag fire Lnet/minecraft/a/a/b/ah;
 	FIELD ah waterSource Lnet/minecraft/a/a/b/x;
 	FIELD ai lavaSource Lnet/minecraft/a/a/b/x;
-	FIELD aj chest Lnet/minecraft/a/a/b/x;
-	FIELD ak gear Lnet/minecraft/a/a/b/x;
+	FIELD aj crate Lnet/minecraft/a/a/b/x;
+	FIELD ak cog Lnet/minecraft/a/a/b/x;
 	FIELD al oreDiamond Lnet/minecraft/a/a/b/x;
 	FIELD am blockDiamond Lnet/minecraft/a/a/b/x;
 	FIELD an workbench Lnet/minecraft/a/a/b/x;
@@ -70,7 +70,7 @@ CLASS net/minecraft/a/a/b/x net/minecraft/game/block/Block
 	FIELD d tickOnLoad [Z
 	FIELD e opaqueCubeLookup [Z
 	FIELD f lightOpacity [I
-	FIELD g isBlockContainer [Z
+	FIELD g isBlockFluid [Z
 	FIELD h lightValue [I
 	FIELD i stone Lnet/minecraft/a/a/b/x;
 	FIELD j grass Lnet/minecraft/a/a/b/af;

@@ -25,7 +25,7 @@ CLASS net/minecraft/a/b/i net/minecraft/game/item/Item
 	FIELD X legsChain Lnet/minecraft/a/b/i;
 	FIELD Y bootsChain Lnet/minecraft/a/b/i;
 	FIELD Z helmetSteel Lnet/minecraft/a/b/i;
-	FIELD a itemRand Ljava/util/Random;
+	FIELD a rand Ljava/util/Random;
 	FIELD aa plateSteel Lnet/minecraft/a/b/i;
 	FIELD ab legsSteel Lnet/minecraft/a/b/i;
 	FIELD ac bootsSteel Lnet/minecraft/a/b/i;
@@ -46,10 +46,10 @@ CLASS net/minecraft/a/b/i net/minecraft/game/item/Item
 	FIELD ar maxDamage I
 	FIELD as iconIndex I
 	FIELD b itemsList [Lnet/minecraft/a/b/i;
-	FIELD c shovelSteel Lnet/minecraft/a/b/i;
+	FIELD c shovel Lnet/minecraft/a/b/i;
 	FIELD d pickaxeSteel Lnet/minecraft/a/b/i;
 	FIELD e axeSteel Lnet/minecraft/a/b/i;
-	FIELD f flintAndSteel Lnet/minecraft/a/b/i;
+	FIELD f striker Lnet/minecraft/a/b/i;
 	FIELD g bow Lnet/minecraft/a/b/i;
 	FIELD h arrow Lnet/minecraft/a/b/i;
 	FIELD i coal Lnet/minecraft/a/b/i;

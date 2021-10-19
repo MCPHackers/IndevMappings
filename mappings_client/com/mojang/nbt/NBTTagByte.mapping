@@ -1,0 +1,2 @@
+CLASS com/a/a/e com/mojang/nbt/NBTTagByte
+	FIELD a byteValue B

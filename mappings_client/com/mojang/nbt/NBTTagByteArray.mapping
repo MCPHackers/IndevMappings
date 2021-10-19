@@ -1,0 +1,2 @@
+CLASS com/a/a/i com/mojang/nbt/NBTTagByteArray
+	FIELD a byteArray [B

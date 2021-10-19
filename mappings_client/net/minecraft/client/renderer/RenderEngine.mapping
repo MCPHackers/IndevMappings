@@ -1,6 +1,6 @@
 CLASS net/minecraft/client/a/k net/minecraft/client/renderer/RenderEngine
 	FIELD a textureMap Ljava/util/HashMap;
-	FIELD b textureNameToImageMap Ljava/util/HashMap;
+	FIELD b textureContentsMap Ljava/util/HashMap;
 	FIELD c singleIntBuffer Ljava/nio/IntBuffer;
 	FIELD d imageData Ljava/nio/ByteBuffer;
 	FIELD e textureList Ljava/util/List;

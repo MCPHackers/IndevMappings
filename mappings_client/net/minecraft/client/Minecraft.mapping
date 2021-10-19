@@ -4,7 +4,7 @@ CLASS net/minecraft/client/d net/minecraft/client/Minecraft
 	FIELD C inventoryScreen Z
 	FIELD D inGameHasFocus Z
 	FIELD E fullscreen Z
-	FIELD F blank Lnet/minecraft/client/i;
+	FIELD F glCapabilities Lnet/minecraft/client/i;
 	FIELD G timer Lnet/minecraft/client/g;
 	FIELD H downloadResourcesThread Lnet/minecraft/client/j;
 	FIELD I ticksRan I
@@ -33,12 +33,12 @@ CLASS net/minecraft/client/d net/minecraft/client/Minecraft
 	FIELD o currentScreen Lnet/minecraft/client/c/i;
 	FIELD p loadingScreen Lnet/minecraft/client/a;
 	FIELD q entityRenderer Lnet/minecraft/client/a/e;
-	FIELD r objectMouseOverString Ljava/lang/String;
-	FIELD s rightClickDelayTimer I
+	FIELD r loadMapUser Ljava/lang/String;
+	FIELD s loadMapID I
 	FIELD t ingameGUI Lnet/minecraft/client/c/l;
-	FIELD u online Z
+	FIELD u skipRenderWorld Z
 	FIELD v objectMouseOver Lnet/minecraft/a/d/c;
-	FIELD w gameSettings Lnet/minecraft/client/q;
+	FIELD w options Lnet/minecraft/client/q;
 	FIELD x sndManager Lnet/minecraft/client/e/c;
 	FIELD y mouseHelper Lnet/minecraft/client/m;
 	FIELD z mcDataDir Ljava/io/File;
@@ -70,4 +70,3 @@ CLASS net/minecraft/client/d net/minecraft/client/Minecraft
 	METHOD d toggleFullscreen ()V
 	METHOD e inputLock ()V
 	METHOD f runTick ()V
-	METHOD run ()V

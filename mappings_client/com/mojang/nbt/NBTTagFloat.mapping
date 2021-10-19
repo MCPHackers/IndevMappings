@@ -1,0 +1,2 @@
+CLASS com/a/a/b com/mojang/nbt/NBTTagFloat
+	FIELD a floatValue F

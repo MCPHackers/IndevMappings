@@ -1,2 +1,0 @@
-CLASS net/minecraft/client/o net/minecraft/client/OSValidator
-	FIELD a osValues [I

@@ -11,14 +11,14 @@ CLASS net/minecraft/client/a/e net/minecraft/client/renderer/EntityRenderer
 	FIELD j entityByteBuffer Ljava/nio/ByteBuffer;
 	FIELD k entityFloatBuffer Ljava/nio/FloatBuffer;
 	FIELD l random Ljava/util/Random;
-	FIELD m unusedVolatile0 I
-	FIELD n unusedVolatile1 I
+	FIELD m unusedInt0 I
+	FIELD n unusedInt1 I
 	FIELD o fogColorBuffer Ljava/nio/FloatBuffer;
 	FIELD p fogColorRed F
 	FIELD q fogColorGreen F
 	FIELD r fogColorBlue F
-	FIELD s fogColor2 F
-	FIELD t fogColor1 F
+	FIELD s prevFogColor F
+	FIELD t fogColor F
 	METHOD <init> (Lnet/minecraft/client/d;)V
 		ARG 1 minecraft
 	METHOD a updateRenderer ()V

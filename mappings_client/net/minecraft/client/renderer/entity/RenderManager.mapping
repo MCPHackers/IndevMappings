@@ -4,9 +4,9 @@ CLASS net/minecraft/client/a/a/i net/minecraft/client/renderer/entity/RenderMana
 	FIELD c worldObj Lnet/minecraft/a/a/g;
 	FIELD d playerViewY F
 	FIELD e entityRenderMap Ljava/util/Map;
-	FIELD f tickPosX F
-	FIELD g tickPosY F
-	FIELD h tickPosZ F
+	FIELD f viewerPosX F
+	FIELD g viewerPosY F
+	FIELD h viewerPosZ F
 	METHOD a getDistanceToCamera (FFF)F
 	METHOD a set (Lnet/minecraft/a/a/g;)V
 		ARG 1 world

@@ -3,7 +3,7 @@ CLASS net/minecraft/client/a/g net/minecraft/client/renderer/ItemRenderer
 	FIELD b itemToRender Lnet/minecraft/a/b/k;
 	FIELD c equippedProgress F
 	FIELD d prevEquippedProgress F
-	FIELD e equippedItemSlot I
+	FIELD e swingProgress I
 	FIELD f itemSwingState Z
 	FIELD g renderBlocksInstance Lnet/minecraft/client/a/f;
 	METHOD <init> (Lnet/minecraft/client/d;)V

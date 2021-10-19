@@ -1,0 +1,29 @@
+CLASS net/minecraft/a/a/h net/minecraft/game/level/LightUpdates
+	FIELD a lightingUpdateCounter I
+	FIELD b lightingUpdateList Ljava/util/List;
+	FIELD c worldObj Lnet/minecraft/a/a/g;
+	FIELD d worldWidth I
+	FIELD e worldLength I
+	FIELD f worldHeight I
+	FIELD g blocks [B
+	FIELD h data [B
+	FIELD i heightMap [I
+	FIELD j skyLightList Ljava/util/List;
+	FIELD k blockLightList Ljava/util/List;
+	FIELD l lightingUpdateList1 Ljava/util/List;
+	FIELD m lightingUpdateList2 Ljava/util/List;
+	FIELD n lightingUpdateList3 [I
+	FIELD o chunks [B
+	FIELD p metadataChunkBlock Lnet/minecraft/a/a/c;
+	FIELD q lightValue I
+	FIELD r skylightSubtracted I
+	METHOD <init> (Lnet/minecraft/a/a/g;)V
+		ARG 1 world
+	METHOD a updateLight ()V
+	METHOD a updateDaylightCycle (I)V
+	METHOD a updateSkylight (IIII)V
+	METHOD a updateBlockLight (IIIIII)V
+	METHOD b debugSkylightUpdates ()Ljava/lang/String;
+	METHOD b updateLight (I)V
+	METHOD b updateLists (IIIIII)V
+	METHOD c getLightingUpdates ()[I
