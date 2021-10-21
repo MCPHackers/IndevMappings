@@ -3,7 +3,7 @@ CLASS net/minecraft/a/c/e/a net/minecraft/game/entity/player/EntityPlayer
 	FIELD P getScore I
 	FIELD Q prevCameraYaw F
 	FIELD R cameraYaw F
-	FIELD a swingProgressInt I
+	FIELD a damageRemainder I
 	FIELD b inventory Lnet/minecraft/a/c/e/b;
 	METHOD a displayGUIFurnace (Lnet/minecraft/a/a/b/a/b;)V
 		ARG 1 furnace

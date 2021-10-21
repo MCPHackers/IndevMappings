@@ -1,4 +1,4 @@
-CLASS net/minecraft/a/c/a net/minecraft/game/entity/other/EntityPainting
+CLASS net/minecraft/a/c/a net/minecraft/game/entity/EntityPainting
 	FIELD O tickCounter1 I
 	FIELD P xPosition I
 	FIELD Q yPosition I

@@ -1,5 +1,5 @@
 CLASS net/minecraft/a/c/b net/minecraft/game/entity/Entity
-	FIELD A entityWalks Z
+	FIELD A canTriggerWalking Z
 	FIELD B lastTickPosX F
 	FIELD C lastTickPosY F
 	FIELD D lastTickPosZ F
@@ -99,5 +99,5 @@ CLASS net/minecraft/a/c/b net/minecraft/game/entity/Entity
 	METHOD n getEyeHeight ()F
 	METHOD o handleLavaMovement ()Z
 	METHOD p canBePushed ()Z
-	METHOD q addToPlayerScore ()Ljava/lang/String;
+	METHOD q getTexture ()Ljava/lang/String;
 	METHOD r isEntityAlive ()Z

@@ -17,9 +17,9 @@ CLASS net/minecraft/a/c/e net/minecraft/game/entity/EntityLiving
 	FIELD ac attackTime I
 	FIELD ad prevCameraPitch F
 	FIELD ae cameraPitch F
-	FIELD af newPosZ F
-	FIELD ag newRotationYaw F
-	FIELD ah newRotationPitch F
+	FIELD af prevLimbYaw F
+	FIELD ag limbYaw F
+	FIELD ah limbSwing F
 	FIELD ai entityAge I
 	FIELD aj moveStrafing F
 	FIELD ak moveForward F

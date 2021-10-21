@@ -62,7 +62,7 @@ CLASS net/minecraft/a/a/g net/minecraft/game/level/World
 	METHOD a spawnParticle (Ljava/lang/String;FFFFFF)V
 	METHOD a addWorldAccess (Lnet/minecraft/a/a/d;)V
 		ARG 1 iWorldAccess
-	METHOD a obtainEntitySkin (Lnet/minecraft/a/c/b;)V
+	METHOD a spawnEntityInWorld (Lnet/minecraft/a/c/b;)V
 		ARG 1 entity
 	METHOD a createExplosion (Lnet/minecraft/a/c/b;FFFF)V
 		ARG 1 entity

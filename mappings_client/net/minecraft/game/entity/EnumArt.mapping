@@ -1,4 +1,4 @@
-CLASS net/minecraft/a/c/d net/minecraft/game/entity/other/EnumArt
+CLASS net/minecraft/a/c/d net/minecraft/game/entity/EnumArt
 	FIELD a Kebab Lnet/minecraft/a/c/d;
 	FIELD b title Ljava/lang/String;
 	FIELD c sizeX I
