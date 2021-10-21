@@ -3,12 +3,12 @@ CLASS net/minecraft/a/c/d/a net/minecraft/game/entity/other/EntityArrow
 	FIELD P zTile I
 	FIELD Q inTile I
 	FIELD R inGround Z
-	FIELD S owner Lnet/minecraft/a/c/e;
+	FIELD S owner Lnet/minecraft/a/c/c;
 	FIELD T ticksInGround I
 	FIELD U ticksInAir I
 	FIELD a arrowShake I
-	FIELD b xTile I
-	METHOD <init> (Lnet/minecraft/a/a/g;Lnet/minecraft/a/c/e;)V
+	FIELD N xTile I
+	METHOD <init> (Lnet/minecraft/a/a/g;Lnet/minecraft/a/c/c;)V
 		ARG 1 world
 		ARG 2 entityLiving
 	METHOD a setArrowHeading (FFFFF)V

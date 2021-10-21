@@ -1,4 +1,4 @@
-CLASS net/minecraft/client/c/l net/minecraft/client/gui/GuiIngame
+CLASS net/minecraft/client/c/m net/minecraft/client/gui/GuiIngame
 	FIELD a itemRenderer Lnet/minecraft/client/a/a/e;
 	FIELD b chatMessageList Ljava/util/List;
 	FIELD c rand Ljava/util/Random;

@@ -6,7 +6,7 @@ CLASS net/minecraft/a/a/f net/minecraft/game/level/BlockMapSlot
 	METHOD <init> (Lnet/minecraft/a/a/i;B)V
 		ARG 1 blockMap
 	METHOD a init (FFF)Lnet/minecraft/a/a/f;
-	METHOD a add (Lnet/minecraft/a/c/b;)V
+	METHOD a add (Lnet/minecraft/a/c/a;)V
 		ARG 1 entity
-	METHOD b remove (Lnet/minecraft/a/c/b;)V
+	METHOD b remove (Lnet/minecraft/a/c/a;)V
 		ARG 1 entity

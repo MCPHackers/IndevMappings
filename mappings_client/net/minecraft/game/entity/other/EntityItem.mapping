@@ -4,7 +4,7 @@ CLASS net/minecraft/a/c/c/b net/minecraft/game/entity/other/EntityItem
 	FIELD Q unknownEntityItemInt I
 	FIELD R health I
 	FIELD a item Lnet/minecraft/a/b/k;
-	FIELD b age I
+	FIELD N age I
 	METHOD <init> (Lnet/minecraft/a/a/g;FFFLnet/minecraft/a/b/k;)V
 		ARG 1 world
 		ARG 5 item

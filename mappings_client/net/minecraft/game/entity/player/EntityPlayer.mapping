@@ -4,7 +4,7 @@ CLASS net/minecraft/a/c/e/a net/minecraft/game/entity/player/EntityPlayer
 	FIELD Q prevCameraYaw F
 	FIELD R cameraYaw F
 	FIELD a damageRemainder I
-	FIELD b inventory Lnet/minecraft/a/c/e/b;
+	FIELD N inventory Lnet/minecraft/a/c/e/b;
 	METHOD a displayGUIFurnace (Lnet/minecraft/a/a/b/a/b;)V
 		ARG 1 furnace
 	METHOD a canHarvestBlock (Lnet/minecraft/a/a/b/x;)Z
@@ -15,6 +15,6 @@ CLASS net/minecraft/a/c/e/a net/minecraft/game/entity/player/EntityPlayer
 		ARG 1 itemStack
 	METHOD a displayGUIChest (Lnet/minecraft/a/b;)V
 		ARG 1 iInventory
-	METHOD a onItemPickup (Lnet/minecraft/a/c/b;)V
+	METHOD a onItemPickup (Lnet/minecraft/a/c/a;)V
 		ARG 1 entity
 	METHOD g_ displayWorkbenchGUI ()V

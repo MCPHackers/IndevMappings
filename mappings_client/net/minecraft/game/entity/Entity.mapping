@@ -1,49 +1,49 @@
-CLASS net/minecraft/a/c/b net/minecraft/game/entity/Entity
-	FIELD A canTriggerWalking Z
-	FIELD B lastTickPosX F
-	FIELD C lastTickPosY F
-	FIELD D lastTickPosZ F
-	FIELD E stepHeight F
-	FIELD F noClip Z
-	FIELD G rand Ljava/util/Random;
-	FIELD H ticksExisted I
-	FIELD I fireResistance I
-	FIELD J fire I
-	FIELD K maxAir I
-	FIELD L heartsLife I
-	FIELD M air I
-	FIELD N skinUrl Ljava/lang/String;
+CLASS net/minecraft/a/c/a net/minecraft/game/entity/Entity
+	FIELD A lastTickPosX F
+	FIELD B lastTickPosY F
+	FIELD C lastTickPosZ F
+	FIELD D stepHeight F
+	FIELD E noClip Z
+	FIELD F rand Ljava/util/Random;
+	FIELD G ticksExisted I
+	FIELD H fireResistance I
+	FIELD I fire I
+	FIELD J maxAir I
+	FIELD K heartsLife I
+	FIELD L air I
+	FIELD M skinUrl Ljava/lang/String;
+	FIELD N fallDistance F
 	FIELD O nextStepDistance I
 	FIELD P ySize F
 	FIELD Q entityCollisionReduction F
 	FIELD R inWater Z
 	FIELD S isFirstUpdate Z
 	FIELD a unknownBool Z
-	FIELD b fallDistance F
-	FIELD c preventEntitySpawning Z
-	FIELD d worldObj Lnet/minecraft/a/a/g;
-	FIELD e prevPosX F
-	FIELD f prevPosY F
-	FIELD g prevPosZ F
-	FIELD h posX F
-	FIELD i posY F
-	FIELD j posZ F
-	FIELD k motionX F
-	FIELD l motionY F
-	FIELD m motionZ F
-	FIELD n rotationYaw F
-	FIELD o rotationPitch F
-	FIELD p prevRotationYaw F
-	FIELD q prevRotationPitch F
-	FIELD r boundingBox Lnet/minecraft/a/d/b;
-	FIELD s onGround Z
-	FIELD t isCollidedHorizontally Z
-	FIELD u isDead Z
-	FIELD v yOffset F
-	FIELD w width F
-	FIELD x height F
-	FIELD y prevDistanceWalkedModified F
-	FIELD z distanceWalkedModified F
+	FIELD b preventEntitySpawning Z
+	FIELD c worldObj Lnet/minecraft/a/a/g;
+	FIELD d prevPosX F
+	FIELD e prevPosY F
+	FIELD f prevPosZ F
+	FIELD g posX F
+	FIELD h posY F
+	FIELD i posZ F
+	FIELD j motionX F
+	FIELD k motionY F
+	FIELD l motionZ F
+	FIELD m rotationYaw F
+	FIELD n rotationPitch F
+	FIELD o prevRotationYaw F
+	FIELD p prevRotationPitch F
+	FIELD q boundingBox Lnet/minecraft/a/d/b;
+	FIELD r onGround Z
+	FIELD s isCollidedHorizontally Z
+	FIELD t isDead Z
+	FIELD u yOffset F
+	FIELD v width F
+	FIELD w height F
+	FIELD x prevDistanceWalkedModified F
+	FIELD y distanceWalkedModified F
+	FIELD z canTriggerWalking Z
 	METHOD <init> (Lnet/minecraft/a/a/g;)V
 		ARG 1 world
 	METHOD a getEntityString ()Ljava/lang/String;
@@ -61,7 +61,7 @@ CLASS net/minecraft/a/c/b net/minecraft/game/entity/Entity
 		ARG 1 nbtTagCompound
 	METHOD a setWorld (Lnet/minecraft/a/a/g;)V
 		ARG 1 world
-	METHOD a attackEntityFrom (Lnet/minecraft/a/c/b;I)Z
+	METHOD a attackEntityFrom (Lnet/minecraft/a/c/a;I)Z
 		ARG 1 entity
 	METHOD a onCollideWithPlayer (Lnet/minecraft/a/c/e/a;)V
 		ARG 1 player
@@ -78,16 +78,16 @@ CLASS net/minecraft/a/c/b net/minecraft/game/entity/Entity
 		ARG 5 rotationPitch
 	METHOD b readEntityFromNBT (Lcom/a/a/c;)V
 		ARG 1 nbtTagCompound
-	METHOD b getDistanceSqToEntity (Lnet/minecraft/a/c/b;)F
+	METHOD b getDistanceSqToEntity (Lnet/minecraft/a/c/a;)F
 		ARG 1 entity
 	METHOD b_ onEntityUpdate ()V
 	METHOD c isOffsetPositionInLiquid (FFF)Z
 	METHOD c writeToNBT (Lcom/a/a/c;)V
 		ARG 1 nbtTagCompound
-	METHOD c applyEntityCollision (Lnet/minecraft/a/c/b;)V
+	METHOD c applyEntityCollision (Lnet/minecraft/a/c/a;)V
 		ARG 1 entity
-	METHOD c_ getShadowSize ()F
-	METHOD d canBeCollidedWith ()Z
+	METHOD d getShadowSize ()F
+	METHOD c_ canBeCollidedWith ()Z
 	METHOD d moveEntity (FFF)V
 	METHOD d readFromNBT (Lcom/a/a/c;)V
 		ARG 1 nbtTagCompound

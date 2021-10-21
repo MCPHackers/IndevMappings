@@ -6,6 +6,6 @@ CLASS net/minecraft/a/a/a net/minecraft/game/level/LevelLoader
 		ARG 1 writeLevelTags
 	METHOD a save (Lnet/minecraft/a/a/g;Ljava/io/OutputStream;)V
 		ARG 1 world
-	METHOD a loadEntity (Lnet/minecraft/a/a/g;Ljava/lang/String;)Lnet/minecraft/a/c/b;
+	METHOD a loadEntity (Lnet/minecraft/a/a/g;Ljava/lang/String;)Lnet/minecraft/a/c/a;
 		ARG 1 world
 		ARG 2 playerName

@@ -1,4 +1,5 @@
-CLASS net/minecraft/a/c/e net/minecraft/game/entity/EntityLiving
+CLASS net/minecraft/a/c/c net/minecraft/game/entity/EntityLiving
+	FIELD N prevRotationYawHead F
 	FIELD O scoreValue I
 	FIELD P livingSoundTime I
 	FIELD Q randomYawVelocity F
@@ -25,11 +26,10 @@ CLASS net/minecraft/a/c/e net/minecraft/game/entity/EntityLiving
 	FIELD ak moveForward F
 	FIELD al isJumping Z
 	FIELD am moveSpeed F
-	FIELD b prevRotationYawHead F
 	METHOD a getCanSpawnHere (FFF)Z
 	METHOD b heal (I)V
 	METHOD c scoreValue ()I
-	METHOD d onDeath (Lnet/minecraft/a/c/b;)V
+	METHOD d onDeath (Lnet/minecraft/a/c/a;)V
 		ARG 1 entity
 	METHOD e updatePlayerActionState ()V
 	METHOD f onLivingUpdate ()V

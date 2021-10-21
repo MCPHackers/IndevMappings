@@ -12,4 +12,3 @@ CLASS net/minecraft/client/c/e net/minecraft/client/gui/GuiLoadLevelScreen
 	METHOD a unknown (Lnet/minecraft/client/c/e;Z)Z
 	METHOD a setLevels ([Ljava/lang/String;)V
 	METHOD e saveFileDialog ()Ljava/awt/FileDialog;
-	METHOD run ()V

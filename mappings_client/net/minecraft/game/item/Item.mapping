@@ -40,11 +40,10 @@ CLASS net/minecraft/a/b/i net/minecraft/game/item/Item
 	FIELD al flint Lnet/minecraft/a/b/i;
 	FIELD am porkRaw Lnet/minecraft/a/b/i;
 	FIELD an porkCooked Lnet/minecraft/a/b/i;
-	FIELD ao painting Lnet/minecraft/a/b/i;
-	FIELD ap shiftedIndex I
-	FIELD aq maxStackSize I
-	FIELD ar maxDamage I
-	FIELD as iconIndex I
+	FIELD ao shiftedIndex I
+	FIELD ap maxStackSize I
+	FIELD aq maxDamage I
+	FIELD ar iconIndex I
 	FIELD b itemsList [Lnet/minecraft/a/b/i;
 	FIELD c shovel Lnet/minecraft/a/b/i;
 	FIELD d pickaxeSteel Lnet/minecraft/a/b/i;

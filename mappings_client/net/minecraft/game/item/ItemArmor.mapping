@@ -1,9 +1,9 @@
 CLASS net/minecraft/a/b/j net/minecraft/game/item/ItemArmor
-	FIELD as armorType I
-	FIELD at damageReduceAmount I
-	FIELD au renderIndex I
-	FIELD av damageReduceAmountArray [I
-	FIELD aw maxDamageArray [I
+	FIELD ar armorType I
+	FIELD as damageReduceAmount I
+	FIELD at renderIndex I
+	FIELD au damageReduceAmountArray [I
+	FIELD av maxDamageArray [I
 	METHOD <init> (IIII)V
 		ARG 1 itemID
 		ARG 2 armorLevel

@@ -35,7 +35,7 @@ CLASS net/minecraft/client/d net/minecraft/client/Minecraft
 	FIELD q entityRenderer Lnet/minecraft/client/a/e;
 	FIELD r loadMapUser Ljava/lang/String;
 	FIELD s loadMapID I
-	FIELD t ingameGUI Lnet/minecraft/client/c/l;
+	FIELD t ingameGUI Lnet/minecraft/client/c/m;
 	FIELD u skipRenderWorld Z
 	FIELD v objectMouseOver Lnet/minecraft/a/d/c;
 	FIELD w options Lnet/minecraft/client/q;

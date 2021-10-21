@@ -40,7 +40,7 @@ CLASS net/minecraft/a/a/g net/minecraft/game/level/World
 	FIELD v skyColor I
 	FIELD w fogColor I
 	FIELD x cloudColor I
-	FIELD y playerEntity Lnet/minecraft/a/c/e;
+	FIELD y playerEntity Lnet/minecraft/a/c/c;
 	FIELD z survivalWorld Z
 	METHOD a load ()V
 	METHOD a getStarBrightness (F)F
@@ -62,13 +62,13 @@ CLASS net/minecraft/a/a/g net/minecraft/game/level/World
 	METHOD a spawnParticle (Ljava/lang/String;FFFFFF)V
 	METHOD a addWorldAccess (Lnet/minecraft/a/a/d;)V
 		ARG 1 iWorldAccess
-	METHOD a spawnEntityInWorld (Lnet/minecraft/a/c/b;)V
+	METHOD a spawnEntityInWorld (Lnet/minecraft/a/c/a;)V
 		ARG 1 entity
-	METHOD a createExplosion (Lnet/minecraft/a/c/b;FFFF)V
+	METHOD a createExplosion (Lnet/minecraft/a/c/a;FFFF)V
 		ARG 1 entity
-	METHOD a playSoundAtEntity (Lnet/minecraft/a/c/b;Ljava/lang/String;FF)V
+	METHOD a playSoundAtEntity (Lnet/minecraft/a/c/a;Ljava/lang/String;FF)V
 		ARG 1 entity
-	METHOD a getEntitiesWithinAABBExcludingEntity (Lnet/minecraft/a/c/b;Lnet/minecraft/a/d/b;)Ljava/util/List;
+	METHOD a getEntitiesWithinAABBExcludingEntity (Lnet/minecraft/a/c/a;Lnet/minecraft/a/d/b;)Ljava/util/List;
 		ARG 1 entity
 		ARG 2 aabb
 	METHOD a rayTraceBlocks (Lnet/minecraft/a/d/a;Lnet/minecraft/a/d/a;)Lnet/minecraft/a/d/c;
@@ -87,10 +87,10 @@ CLASS net/minecraft/a/a/g net/minecraft/game/level/World
 	METHOD b isBlockNormalCube (III)Z
 	METHOD b setBlockWithNotify (IIII)Z
 	METHOD b floodFill (IIIII)I
-	METHOD b findSubclassOf (Ljava/lang/Class;)Lnet/minecraft/a/c/b;
+	METHOD b findSubclassOf (Ljava/lang/Class;)Lnet/minecraft/a/c/a;
 	METHOD b removeWorldAccess (Lnet/minecraft/a/a/d;)V
 		ARG 1 iWorldAccess
-	METHOD b releaseEntitySkin (Lnet/minecraft/a/c/b;)V
+	METHOD b releaseEntitySkin (Lnet/minecraft/a/c/a;)V
 		ARG 1 entity
 	METHOD b getIsAnyLiquid (Lnet/minecraft/a/d/b;)Z
 		ARG 1 aabb
@@ -121,7 +121,7 @@ CLASS net/minecraft/a/a/g net/minecraft/game/level/World
 	METHOD h getWaterLevel ()I
 	METHOD h growTrees (III)Z
 	METHOD h updateTile (IIII)V
-	METHOD i getPlayerEntity ()Lnet/minecraft/a/c/b;
+	METHOD i getPlayerEntity ()Lnet/minecraft/a/c/a;
 	METHOD i removeBlockTileEntity (III)V
 	METHOD j debugSkylightUpdates ()Ljava/lang/String;
 	METHOD j getBlockTileEntity (III)Lnet/minecraft/a/a/b/a/a;

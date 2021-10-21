@@ -12,7 +12,7 @@ CLASS net/minecraft/client/f/d net/minecraft/client/particle/EffectRenderer
 	METHOD a addBlockHitEffects (IIII)V
 	METHOD a clearEffects (Lnet/minecraft/a/a/g;)V
 		ARG 1 world
-	METHOD a renderParticles (Lnet/minecraft/a/c/b;F)V
+	METHOD a renderParticles (Lnet/minecraft/a/c/a;F)V
 		ARG 1 particle
 	METHOD a addEffect (Lnet/minecraft/client/f/k;)V
 		ARG 1 entityFX

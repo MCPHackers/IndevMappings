@@ -26,7 +26,7 @@ CLASS net/minecraft/client/a/h net/minecraft/client/renderer/WorldRenderer
 		ARG 3 yCoord
 		ARG 4 zCoord
 	METHOD a updateRenderer ()V
-	METHOD a distanceToEntitySquared (Lnet/minecraft/a/c/e;)F
+	METHOD a distanceToEntitySquared (Lnet/minecraft/a/c/c;)F
 	METHOD a updateInFrustrum (Lnet/minecraft/client/a/b/e;)V
 	METHOD a getGLCallListForPass ([III)I
 	METHOD b stopRendering ()V

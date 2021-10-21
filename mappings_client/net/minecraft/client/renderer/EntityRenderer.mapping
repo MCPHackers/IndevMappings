@@ -4,7 +4,7 @@ CLASS net/minecraft/client/a/e net/minecraft/client/renderer/EntityRenderer
 	FIELD c anaglyphEnable Z
 	FIELD d farPlaneDistance F
 	FIELD e rendererUpdateCount I
-	FIELD f pointedEntity Lnet/minecraft/a/c/b;
+	FIELD f pointedEntity Lnet/minecraft/a/c/a;
 	FIELD g entityRendererInt1 I
 	FIELD h entityRendererInt2 I
 	FIELD i entityDecimalFormat Ljava/text/DecimalFormat;
