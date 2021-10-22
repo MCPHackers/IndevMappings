@@ -1,4 +1,4 @@
-CLASS net/minecraft/client/c/p net/minecraft/client/gui/GuiLevelNameScreen
+CLASS net/minecraft/client/c/p net/minecraft/client/gui/GuiNameLevel
 	FIELD a parent Lnet/minecraft/client/c/i;
 	FIELD i title Ljava/lang/String;
 	FIELD j id I
