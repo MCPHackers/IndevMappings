@@ -11,7 +11,7 @@ CLASS net/minecraft/a/a/g net/minecraft/game/level/World
 	FIELD J randId I
 	FIELD K updateLCG I
 	FIELD L playTime I
-	FIELD M metaChunkBlock Lnet/minecraft/a/a/h;
+	FIELD M lightUpdates Lnet/minecraft/a/a/h;
 	FIELD N floodFillCounter S
 	FIELD O floodFillBlocks [S
 	FIELD P floodFillBlocks2 [I
@@ -52,7 +52,7 @@ CLASS net/minecraft/a/a/g net/minecraft/game/level/World
 	METHOD a getFirstUncoveredBlock (II)I
 	METHOD a getBlockId (III)I
 	METHOD a setSpawnLocation (IIIF)V
-	METHOD a setTileNoNeighborChange (IIII)Z
+	METHOD a setBlock (IIII)Z
 	METHOD a fluidFlowCheck (IIIII)I
 	METHOD a swap (IIIIII)V
 	METHOD a setBlockTileEntity (IIILnet/minecraft/a/a/b/a/a;)V
@@ -114,13 +114,13 @@ CLASS net/minecraft/a/a/g net/minecraft/game/level/World
 		ARG 1 aabb
 	METHOD f tick ()V
 	METHOD f getBlockMaterial (III)Lnet/minecraft/a/a/d/c;
-	METHOD f setBlockMetadataWithNotify (IIII)V
+	METHOD f setBlockMetadata (IIII)V
 	METHOD g getGroundLevel ()I
 	METHOD g isWater (III)Z
 	METHOD g extinguishFire (IIII)V
 	METHOD h getWaterLevel ()I
 	METHOD h growTrees (III)Z
-	METHOD h updateTile (IIII)V
+	METHOD h notifyBlockOfNeighborChange (IIII)V
 	METHOD i getPlayerEntity ()Lnet/minecraft/a/c/b;
 	METHOD i removeBlockTileEntity (III)V
 	METHOD j debugSkylightUpdates ()Ljava/lang/String;
