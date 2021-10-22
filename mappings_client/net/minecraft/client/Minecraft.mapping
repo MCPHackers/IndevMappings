@@ -26,7 +26,7 @@ CLASS net/minecraft/client/d net/minecraft/client/Minecraft
 	FIELD h session Lnet/minecraft/client/l;
 	FIELD i minecraftUri Ljava/lang/String;
 	FIELD j mcCanvas Ljava/awt/Canvas;
-	FIELD k hideQuitButton Z
+	FIELD k appletMode Z
 	FIELD l isGamePaused Z
 	FIELD m renderEngine Lnet/minecraft/client/a/k;
 	FIELD n fontRenderer Lnet/minecraft/client/c/j;
