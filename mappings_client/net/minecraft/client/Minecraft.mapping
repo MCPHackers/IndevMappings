@@ -26,7 +26,7 @@ CLASS net/minecraft/client/d net/minecraft/client/Minecraft
 	FIELD h session Lnet/minecraft/client/l;
 	FIELD i minecraftUri Ljava/lang/String;
 	FIELD j mcCanvas Ljava/awt/Canvas;
-	FIELD k hideQuitButton Z
+	FIELD k appletMode Z
 	FIELD l isGamePaused Z
 	FIELD m renderEngine Lnet/minecraft/client/a/k;
 	FIELD n fontRenderer Lnet/minecraft/client/c/j;
@@ -35,7 +35,7 @@ CLASS net/minecraft/client/d net/minecraft/client/Minecraft
 	FIELD q entityRenderer Lnet/minecraft/client/a/e;
 	FIELD r loadMapUser Ljava/lang/String;
 	FIELD s loadMapID I
-	FIELD t ingameGUI Lnet/minecraft/client/c/m;
+	FIELD t ingameGUI Lnet/minecraft/client/c/l;
 	FIELD u skipRenderWorld Z
 	FIELD v objectMouseOver Lnet/minecraft/a/d/c;
 	FIELD w options Lnet/minecraft/client/q;
