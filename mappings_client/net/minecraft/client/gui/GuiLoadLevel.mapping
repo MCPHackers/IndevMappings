@@ -1,4 +1,4 @@
-CLASS net/minecraft/client/c/e net/minecraft/client/gui/GuiLoadLevelScreen
+CLASS net/minecraft/client/c/e net/minecraft/client/gui/GuiLoadLevel
 	FIELD a title Ljava/lang/String;
 	FIELD i parent Lnet/minecraft/client/c/i;
 	FIELD j finished Z
