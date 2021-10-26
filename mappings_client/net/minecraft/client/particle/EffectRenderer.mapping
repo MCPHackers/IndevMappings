@@ -1,7 +1,7 @@
 CLASS net/minecraft/client/f/d net/minecraft/client/particle/EffectRenderer
 	FIELD a worldObj Lnet/minecraft/a/a/g;
 	FIELD b fxLayers [Ljava/util/List;
-	FIELD c renderer Lnet/minecraft/client/a/k;
+	FIELD c renderEngine Lnet/minecraft/client/a/k;
 	FIELD d rand Ljava/util/Random;
 	METHOD <init> (Lnet/minecraft/a/a/g;Lnet/minecraft/client/a/k;)V
 		ARG 1 world

@@ -1,9 +1,9 @@
 CLASS net/minecraft/a/a/e net/minecraft/game/level/NextTickListEntry
-	FIELD a x I
-	FIELD b y I
-	FIELD c z I
-	FIELD d block I
-	FIELD e ticks I
+	FIELD a xCoord I
+	FIELD b yCoord I
+	FIELD c zCoord I
+	FIELD d blockID I
+	FIELD e scheduledTime I
 	METHOD <init> (IIII)V
 		ARG 1 x
 		ARG 2 y

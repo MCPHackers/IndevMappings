@@ -13,9 +13,9 @@ CLASS net/minecraft/a/a/g net/minecraft/game/level/World
 	FIELD L playTime I
 	FIELD M lightUpdates Lnet/minecraft/a/a/h;
 	FIELD N floodFillCounter S
-	FIELD O floodFillBlocks [S
-	FIELD P floodFillBlocks2 [I
-	FIELD Q worldIntArray3 [I
+	FIELD O floodFillCounters [S
+	FIELD P coords [I
+	FIELD Q floodedBlocks [I
 	FIELD a width I
 	FIELD b length I
 	FIELD c height I
@@ -33,7 +33,7 @@ CLASS net/minecraft/a/a/g net/minecraft/game/level/World
 	FIELD o map Ljava/util/Map;
 	FIELD p heightMap [I
 	FIELD q random Ljava/util/Random;
-	FIELD r blockMap Lnet/minecraft/a/a/i;
+	FIELD r entityMap Lnet/minecraft/a/a/i;
 	FIELD s waterLevel I
 	FIELD t groundLevel I
 	FIELD u cloudHeight I
@@ -125,6 +125,6 @@ CLASS net/minecraft/a/a/g net/minecraft/game/level/World
 	METHOD i removeBlockTileEntity (III)V
 	METHOD j debugSkylightUpdates ()Ljava/lang/String;
 	METHOD j getBlockTileEntity (III)Lnet/minecraft/a/a/b/a/a;
-	METHOD k worldMethod ()V
+	METHOD k setLevel ()V
 	METHOD k randomDisplayUpdates (III)V
 	METHOD l canBlockSeeTheSky (III)Z
