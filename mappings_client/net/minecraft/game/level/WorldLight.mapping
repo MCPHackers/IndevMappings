@@ -1,4 +1,4 @@
-CLASS net/minecraft/a/a/h net/minecraft/game/level/LightUpdates
+CLASS net/minecraft/a/a/h net/minecraft/game/level/WorldLight
 	FIELD a lightingUpdateCounter I
 	FIELD b lightingUpdateList Ljava/util/List;
 	FIELD c worldObj Lnet/minecraft/a/a/g;
