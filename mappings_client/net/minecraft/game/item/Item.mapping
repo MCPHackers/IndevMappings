@@ -85,7 +85,7 @@ CLASS net/minecraft/a/b/i net/minecraft/game/item/Item
 		ARG 1 itemStack
 		ARG 2 world
 		ARG 3 entityPlayer
-	METHOD b getIconFromDamage ()I
+	METHOD b getIconIndex ()I
 	METHOD b getStrVsBlock (Lnet/minecraft/a/a/b/x;)F
 		ARG 1 block
 	METHOD b onBlockDestroyed (Lnet/minecraft/a/b/k;)V
