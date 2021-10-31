@@ -18,7 +18,7 @@ CLASS net/minecraft/a/c/b net/minecraft/game/entity/Entity
 	FIELD Q entityCollisionReduction F
 	FIELD R inWater Z
 	FIELD S isFirstUpdate Z
-	FIELD a unknownBool Z
+	FIELD a surfaceCollision Z
 	FIELD b fallDistance F
 	FIELD c preventEntitySpawning Z
 	FIELD d worldObj Lnet/minecraft/a/a/g;
