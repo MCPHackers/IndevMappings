@@ -1,4 +1,4 @@
-CLASS net/minecraft/a/a/b/p net/minecraft/game/level/block/BlockFluids
+CLASS net/minecraft/a/a/b/p net/minecraft/game/level/block/BlockFluid
 	FIELD a stillId I
 	FIELD b movingId I
 	METHOD e canFlow (Lnet/minecraft/a/a/g;III)Z
