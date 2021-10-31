@@ -1,0 +1,3 @@
+CLASS net/minecraft/a/a/b/aa net/minecraft/game/level/block/BlockLog
+	METHOD <init> (I)V
+		ARG 1 blockID

@@ -1,3 +1,0 @@
-CLASS net/minecraft/a/a/b/ab net/minecraft/game/block/BlockFarmland
-	METHOD <init> (I)V
-		ARG 1 blockID

@@ -1,2 +1,0 @@
-CLASS net/minecraft/client/k net/minecraft/client/gui/ChatLine
-	FIELD a updateCounter I

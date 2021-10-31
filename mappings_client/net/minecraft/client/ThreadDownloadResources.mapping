@@ -9,4 +9,3 @@ CLASS net/minecraft/client/j net/minecraft/client/ThreadDownloadResources
 	METHOD a downloadResource (Ljava/net/URL;Ljava/io/File;)V
 		ARG 1 url
 		ARG 2 file
-	METHOD run ()V
