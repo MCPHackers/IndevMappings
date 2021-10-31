@@ -1,5 +1,0 @@
-CLASS net/minecraft/a/a/b net/minecraft/game/level/Spawner
-	FIELD a worldObj Lnet/minecraft/a/a/g;
-	METHOD <init> (Lnet/minecraft/a/a/g;)V
-		ARG 1 world
-	METHOD a performSpawning ()V

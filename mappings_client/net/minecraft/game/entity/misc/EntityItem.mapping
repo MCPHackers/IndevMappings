@@ -1,0 +1,10 @@
+CLASS net/minecraft/a/c/c/b net/minecraft/game/entity/misc/EntityItem
+	FIELD N age I
+	FIELD O delayBeforeCanPickup I
+	FIELD P hoverStart F
+	FIELD Q unknownEntityItemInt I
+	FIELD R health I
+	FIELD a item Lnet/minecraft/a/b/k;
+	METHOD <init> (Lnet/minecraft/a/a/g;FFFLnet/minecraft/a/b/k;)V
+		ARG 1 world
+		ARG 5 item

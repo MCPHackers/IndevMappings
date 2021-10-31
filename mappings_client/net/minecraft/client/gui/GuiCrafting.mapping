@@ -1,3 +1,0 @@
-CLASS net/minecraft/client/c/a/b net/minecraft/client/gui/GuiCrafting
-	FIELD k inventoryCrafting Lnet/minecraft/client/c/a/a;
-	FIELD l iInventory Lnet/minecraft/a/b;

@@ -1,3 +1,0 @@
-CLASS net/minecraft/a/a/b/ag net/minecraft/game/block/BlockSponge
-	METHOD <init> (I)V
-		ARG 1 blockID
