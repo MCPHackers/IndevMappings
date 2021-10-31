@@ -18,7 +18,7 @@ CLASS net/minecraft/a/c/a net/minecraft/game/entity/Entity
 	FIELD Q entityCollisionReduction F
 	FIELD R inWater Z
 	FIELD S isFirstUpdate Z
-	FIELD a unknownBool Z
+	FIELD a surfaceCollision Z
 	FIELD b preventEntitySpawning Z
 	FIELD c worldObj Lnet/minecraft/a/a/g;
 	FIELD d prevPosX F
@@ -86,8 +86,8 @@ CLASS net/minecraft/a/c/a net/minecraft/game/entity/Entity
 		ARG 1 nbtTagCompound
 	METHOD c applyEntityCollision (Lnet/minecraft/a/c/a;)V
 		ARG 1 entity
-	METHOD d getShadowSize ()F
 	METHOD c_ canBeCollidedWith ()Z
+	METHOD d getShadowSize ()F
 	METHOD d moveEntity (FFF)V
 	METHOD d readFromNBT (Lcom/a/a/c;)V
 		ARG 1 nbtTagCompound
