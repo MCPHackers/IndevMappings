@@ -95,7 +95,7 @@ CLASS net/minecraft/a/c/b net/minecraft/game/entity/Entity
 	METHOD j preparePlayerToSpawn ()V
 	METHOD k setEntityDead ()V
 	METHOD l handleWaterMovement ()Z
-	METHOD m isInsideOfMaterial ()Z
+	METHOD m isInsideOfWater ()Z
 	METHOD n getEyeHeight ()F
 	METHOD o handleLavaMovement ()Z
 	METHOD p canBePushed ()Z

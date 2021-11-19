@@ -5,4 +5,4 @@ CLASS net/minecraft/client/g/a net/minecraft/client/player/EntityPlayerSP
 		ARG 1 minecraft
 		ARG 2 world
 		ARG 3 sessionData
-	METHOD h_ displayGUIInventory ()V
+	METHOD h_ destroyCurrentEquippedItem ()V
