@@ -1,2 +1,0 @@
-CLASS net/minecraft/a/a/c/a/b net/minecraft/game/level/generator/noise/NoiseGenerator
-	METHOD a generateNoise (DD)D

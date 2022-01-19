@@ -1,3 +1,0 @@
-CLASS net/minecraft/client/f/b net/minecraft/client/effect/EntityDiggingFX
-	METHOD <init> (Lnet/minecraft/a/a/g;FFFFFFLnet/minecraft/a/a/b/x;)V
-		ARG 1 world

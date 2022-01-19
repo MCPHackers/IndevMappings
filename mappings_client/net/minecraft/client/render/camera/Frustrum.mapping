@@ -1,2 +1,0 @@
-CLASS net/minecraft/client/a/b/c net/minecraft/client/render/camera/Frustrum
-	FIELD a clippingHelper Lnet/minecraft/client/a/b/b;

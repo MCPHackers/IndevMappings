@@ -1,2 +1,0 @@
-CLASS net/minecraft/a/b/d net/minecraft/game/item/ItemBlock
-	FIELD as blockID I

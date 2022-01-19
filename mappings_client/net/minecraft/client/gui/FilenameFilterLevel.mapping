@@ -1,3 +1,0 @@
-CLASS net/minecraft/client/c/q net/minecraft/client/gui/FilenameFilterLevel
-	METHOD accept (Ljava/io/File;Ljava/lang/String;)Z
-		ARG 2 worldName

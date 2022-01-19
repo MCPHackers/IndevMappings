@@ -1,5 +1,0 @@
-CLASS net/minecraft/client/a/c/c net/minecraft/client/render/texture/TextureGearsFX
-	FIELD e gearRotation I
-	FIELD f gearColor [I
-	FIELD g gearMiddleColor [I
-	FIELD h gearRotationDir I

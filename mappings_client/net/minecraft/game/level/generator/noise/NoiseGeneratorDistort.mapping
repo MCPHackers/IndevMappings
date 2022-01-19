@@ -1,3 +1,0 @@
-CLASS net/minecraft/a/a/c/a/d net/minecraft/game/level/generator/noise/NoiseGeneratorDistort
-	FIELD a source Lnet/minecraft/a/a/c/a/b;
-	FIELD b distort Lnet/minecraft/a/a/c/a/b;

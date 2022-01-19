@@ -1,7 +1,0 @@
-CLASS net/minecraft/a/c/c/a net/minecraft/game/entity/misc/EntityTNTPrimed
-	FIELD a fuse I
-	METHOD <init> (Lnet/minecraft/a/a/g;FFF)V
-		ARG 1 world
-		ARG 2 prevPosX
-		ARG 3 prevPosY
-		ARG 4 prevPosZ

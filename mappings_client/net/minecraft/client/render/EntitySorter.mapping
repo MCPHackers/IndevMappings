@@ -1,4 +1,0 @@
-CLASS net/minecraft/client/a/l net/minecraft/client/render/EntitySorter
-	FIELD a player Lnet/minecraft/a/c/e/a;
-	METHOD <init> (Lnet/minecraft/a/c/e/a;)V
-		ARG 1 entityPlayer
