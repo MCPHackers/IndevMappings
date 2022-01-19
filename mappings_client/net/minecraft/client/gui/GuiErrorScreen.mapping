@@ -1,0 +1,3 @@
+CLASS net/minecraft/client/b/d net/minecraft/client/gui/GuiErrorScreen
+	FIELD a title Ljava/lang/String;
+	FIELD i text Ljava/lang/String;

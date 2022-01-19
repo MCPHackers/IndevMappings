@@ -1,0 +1,2 @@
+CLASS net/minecraft/client/a/a/g net/minecraft/client/render/entity/RenderMD3
+	FIELD c model [Lnet/minecraft/client/e/a/g;

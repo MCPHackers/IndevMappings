@@ -1,0 +1,3 @@
+CLASS net/minecraft/a/c/f net/minecraft/game/item/ItemTool
+	FIELD L blocksEffectiveAgainst [Lnet/minecraft/a/a/a/r;
+	FIELD M efficiencyOnProperMaterial F

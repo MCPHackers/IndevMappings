@@ -1,0 +1,12 @@
+CLASS net/minecraft/client/e/a/e net/minecraft/client/model/md3/MD3Buffers
+	FIELD a I
+	FIELD b md3Unknown [Lnet/minecraft/client/e/a/c;
+	FIELD c intBufferMD3 Ljava/nio/IntBuffer;
+	FIELD d xBuffer Ljava/nio/FloatBuffer;
+	FIELD e yBuffer Ljava/nio/FloatBuffer;
+	FIELD f zBuffer Ljava/nio/FloatBuffer;
+	FIELD g I
+	FIELD h data1 [F
+	FIELD i data2 [F
+	METHOD a setAndClearBuffers (IIF)V
+	METHOD a setBuffer (Ljava/nio/FloatBuffer;IIF)V

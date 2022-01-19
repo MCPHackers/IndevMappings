@@ -1,0 +1,9 @@
+CLASS net/minecraft/a/b/c/b net/minecraft/game/entity/player/InventoryPlayer
+	FIELD a mainInventory [Lnet/minecraft/a/c/i;
+	FIELD b currentItem I
+	METHOD a addItemStackToInventory (Lnet/minecraft/a/c/i;)Z
+	METHOD b getFirstEmptyStack (I)V
+	METHOD c consumeInventoryItem (I)Z
+	METHOD d getCurrentItem ()Lnet/minecraft/a/c/i;
+	METHOD d getInventorySlotContainItem (I)I
+	METHOD e storeItemStack ()I

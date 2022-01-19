@@ -1,0 +1,6 @@
+CLASS net/minecraft/client/e/a/d net/minecraft/client/model/md3/MD3Data
+	FIELD a name Ljava/lang/String;
+	FIELD b [Lnet/minecraft/a/d/a;
+	FIELD c [Lnet/minecraft/a/d/a;
+	FIELD d [Lnet/minecraft/a/d/a;
+	FIELD e [Lnet/minecraft/a/d/a;

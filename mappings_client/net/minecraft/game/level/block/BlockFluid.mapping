@@ -1,0 +1,8 @@
+CLASS net/minecraft/a/a/a/l net/minecraft/game/level/block/BlockFluid
+	FIELD a material0 Lnet/minecraft/a/a/c/a;
+	FIELD b stillId I
+	FIELD c movingId I
+	METHOD d update (Lnet/minecraft/a/a/f;IIII)Z
+	METHOD f canFlow (Lnet/minecraft/a/a/f;III)Z
+	METHOD h extinguishFireLava (Lnet/minecraft/a/a/f;III)Z
+	METHOD i flow (Lnet/minecraft/a/a/f;III)Z

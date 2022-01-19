@@ -1,0 +1,4 @@
+CLASS net/minecraft/a/c/a/d net/minecraft/game/item/recipe/RecipesTools
+	FIELD a recipePatterns [[Ljava/lang/String;
+	FIELD b recipeItems [[Ljava/lang/Object;
+	METHOD a addRecipes (Lnet/minecraft/a/c/a/e;)V

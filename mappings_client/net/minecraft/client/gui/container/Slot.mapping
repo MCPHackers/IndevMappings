@@ -1,0 +1,10 @@
+CLASS net/minecraft/client/b/a/e net/minecraft/client/gui/container/Slot
+	FIELD a slotIndex I
+	FIELD b xPos I
+	FIELD c yPos I
+	FIELD d inventory Lnet/minecraft/a/b;
+	FIELD e guiHandler Lnet/minecraft/client/b/a/h;
+	METHOD a isItemValid ()Z
+	METHOD a isAtCursorPos (II)Z
+	METHOD a putStack (Lnet/minecraft/a/c/i;)V
+	METHOD b onPickupFromSlot ()V

@@ -1,0 +1,6 @@
+CLASS net/minecraft/client/a net/minecraft/client/LoadingScreenRenderer
+	FIELD a text Ljava/lang/String;
+	FIELD b mc Lnet/minecraft/client/d;
+	FIELD c title Ljava/lang/String;
+	FIELD d start J
+	METHOD a writeLevelTags (Ljava/io/InputStream;)Lcom/a/a/c;

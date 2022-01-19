@@ -1,0 +1,2 @@
+CLASS net/minecraft/client/b/g net/minecraft/client/gui/GuiLevelDialog
+	FIELD a guiLoadLevel Lnet/minecraft/client/b/f;

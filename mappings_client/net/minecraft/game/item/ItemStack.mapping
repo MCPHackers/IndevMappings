@@ -1,0 +1,7 @@
+CLASS net/minecraft/a/c/i net/minecraft/game/item/ItemStack
+	FIELD a stackSize I
+	FIELD b animationsToGo I
+	FIELD c itemID I
+	METHOD a getItem ()Lnet/minecraft/a/c/h;
+	METHOD a splitStack (I)Lnet/minecraft/a/c/i;
+	METHOD a writeToNBT (Lcom/a/a/c;)Lcom/a/a/c;

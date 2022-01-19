@@ -1,0 +1,2 @@
+CLASS net/minecraft/client/a/a net/minecraft/client/render/RenderSorter
+	FIELD a player Lnet/minecraft/a/b/c/a;

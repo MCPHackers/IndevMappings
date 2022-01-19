@@ -1,0 +1,2 @@
+CLASS net/minecraft/a/c/l net/minecraft/game/item/ItemFood
+	FIELD L blocksEffectiveAgainst I

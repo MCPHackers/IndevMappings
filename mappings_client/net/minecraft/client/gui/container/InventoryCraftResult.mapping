@@ -1,0 +1,2 @@
+CLASS net/minecraft/client/b/a/f net/minecraft/client/gui/container/InventoryCraftResult
+	FIELD a stackResult [Lnet/minecraft/a/c/i;

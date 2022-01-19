@@ -1,0 +1,5 @@
+CLASS net/minecraft/a/a/c/a net/minecraft/game/level/material/Material
+	FIELD a air Lnet/minecraft/a/a/c/a;
+	FIELD b water Lnet/minecraft/a/a/c/a;
+	FIELD c lava Lnet/minecraft/a/a/c/a;
+	FIELD d materials [Lnet/minecraft/a/a/c/a;

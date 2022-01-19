@@ -1,0 +1,12 @@
+CLASS net/minecraft/a/b/b net/minecraft/game/entity/AILiving
+	FIELD b moveStrafing F
+	FIELD c moveForward F
+	FIELD d isJumping Z
+	FIELD e rand Ljava/util/Random;
+	FIELD f randomYawVelocity F
+	FIELD g entityLiving Lnet/minecraft/a/b/d;
+	FIELD h fire I
+	FIELD i moveSpeed F
+	FIELD j entityAge I
+	FIELD k playerToAttack Lnet/minecraft/a/b/c;
+	METHOD a updatePlayerActionState ()V

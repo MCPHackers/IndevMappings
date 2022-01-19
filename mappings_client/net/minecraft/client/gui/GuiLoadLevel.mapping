@@ -1,0 +1,12 @@
+CLASS net/minecraft/client/b/f net/minecraft/client/gui/GuiLoadLevel
+	FIELD a title Ljava/lang/String;
+	FIELD i parent Lnet/minecraft/client/b/j;
+	FIELD j finished Z
+	FIELD k loaded Z
+	FIELD l levels [Ljava/lang/String;
+	FIELD m status Ljava/lang/String;
+	FIELD n frozen Z
+	FIELD o selectedFile Ljava/io/File;
+	METHOD a openLevel (I)V
+	METHOD a openLevel (Ljava/io/File;)V
+	METHOD a setLevels ([Ljava/lang/String;)V

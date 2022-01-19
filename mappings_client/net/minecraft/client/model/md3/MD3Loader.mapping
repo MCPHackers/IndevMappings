@@ -1,0 +1,6 @@
+CLASS net/minecraft/client/e/a/a net/minecraft/client/model/md3/MD3Loader
+	METHOD a loadModel (Ljava/lang/String;)Lnet/minecraft/client/e/a/b;
+	METHOD a loadMD3Data (Ljava/nio/ByteBuffer;)Lnet/minecraft/client/e/a/b;
+	METHOD a loadMD3Info (Ljava/nio/ByteBuffer;I)Ljava/lang/String;
+	METHOD b getMD3Buffer (Ljava/nio/ByteBuffer;)Lnet/minecraft/client/e/a/e;
+	METHOD c getMD3Vec (Ljava/nio/ByteBuffer;)Lnet/minecraft/a/d/a;

@@ -1,0 +1,2 @@
+CLASS net/minecraft/client/a/a/c net/minecraft/client/render/entity/RenderTNTPrimed
+	FIELD c blockRenderer Lnet/minecraft/client/a/e;

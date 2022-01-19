@@ -1,0 +1,24 @@
+CLASS net/minecraft/client/a/c net/minecraft/client/render/Tessellator
+	FIELD a instance Lnet/minecraft/client/a/c;
+	FIELD b byteBuffer Ljava/nio/IntBuffer;
+	FIELD c rawBuffer [I
+	FIELD d vertexCount I
+	FIELD e textureU F
+	FIELD f textureV F
+	FIELD g color I
+	FIELD h hasColor Z
+	FIELD i hasTexture Z
+	FIELD j colors I
+	FIELD k addedVertices I
+	FIELD l rawBufferIndex I
+	FIELD m drawMode Z
+	METHOD a draw ()V
+	METHOD a setColorOpaque_F (FFF)V
+	METHOD a addVertexWithUV (FFFFF)V
+	METHOD a setColorOpaque_I (I)V
+	METHOD a setColorOpaque (III)V
+	METHOD b startDrawingQuads ()V
+	METHOD b addVertex (FFF)V
+	METHOD c disableColor ()V
+	METHOD c setNormal (FFF)V
+	METHOD d reset ()V

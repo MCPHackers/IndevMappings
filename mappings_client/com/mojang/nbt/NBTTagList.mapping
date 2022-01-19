@@ -1,0 +1,6 @@
+CLASS com/a/a/f com/mojang/nbt/NBTTagList
+	FIELD a tagList Ljava/util/List;
+	FIELD b tagType B
+	METHOD a tagAt (I)Lcom/a/a/j;
+	METHOD a setTag (Lcom/a/a/j;)V
+	METHOD b tagCount ()I

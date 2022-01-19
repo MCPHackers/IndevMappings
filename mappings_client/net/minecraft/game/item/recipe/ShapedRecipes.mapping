@@ -1,0 +1,8 @@
+CLASS net/minecraft/a/c/a/b net/minecraft/game/item/recipe/ShapedRecipes
+	FIELD a recipeWidth I
+	FIELD b recipeHeight I
+	FIELD c recipeItems [I
+	FIELD d recipeOutput Lnet/minecraft/a/c/i;
+	METHOD a getCraftingResult ()Lnet/minecraft/a/c/i;
+	METHOD a matches ([I)Z
+	METHOD a func_21137_a ([IIIZ)Z

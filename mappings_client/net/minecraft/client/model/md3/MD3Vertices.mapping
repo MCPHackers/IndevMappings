@@ -1,0 +1,5 @@
+CLASS net/minecraft/client/e/a/b net/minecraft/client/model/md3/MD3Vertices
+	FIELD a totalFrames I
+	FIELD b unknownMD3 [Lnet/minecraft/client/e/a/f;
+	FIELD c modelMap Ljava/util/HashMap;
+	FIELD d buffersMD3 [Lnet/minecraft/client/e/a/e;

@@ -1,0 +1,7 @@
+CLASS net/minecraft/client/e/a net/minecraft/client/model/ModelRenderer
+	FIELD a mirror Z
+	FIELD b corners [Lnet/minecraft/client/e/d;
+	FIELD c faces [Lnet/minecraft/client/e/c;
+	FIELD d textureOffsetX I
+	FIELD e textureOffsetY I
+	METHOD a addBox (FFFIIIF)V

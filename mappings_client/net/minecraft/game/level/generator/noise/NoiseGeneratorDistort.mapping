@@ -1,0 +1,3 @@
+CLASS net/minecraft/a/a/b/a/d net/minecraft/game/level/generator/noise/NoiseGeneratorDistort
+	FIELD a source Lnet/minecraft/a/a/b/a/b;
+	FIELD b distort Lnet/minecraft/a/a/b/a/b;

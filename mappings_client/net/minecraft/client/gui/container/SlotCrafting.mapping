@@ -1,0 +1,2 @@
+CLASS net/minecraft/client/b/a/c net/minecraft/client/gui/container/SlotCrafting
+	FIELD e craftMatrix Lnet/minecraft/a/b;

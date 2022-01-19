@@ -1,0 +1,9 @@
+CLASS net/minecraft/client/a/k net/minecraft/client/render/Frustrum
+	FIELD a visible Z
+	FIELD b frustrum [[F
+	FIELD c projectionMatrix [F
+	FIELD d modelViewMatrix [F
+	FIELD e clippingMatrix [F
+	METHOD a isVisible (FFFFFF)Z
+	METHOD a isBoundingBoxInFrustrum (Lnet/minecraft/a/d/b;)Z
+	METHOD b checkInFrustrum (FFFFFF)Z

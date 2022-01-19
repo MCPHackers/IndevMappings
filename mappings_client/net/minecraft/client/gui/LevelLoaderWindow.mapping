@@ -1,0 +1,2 @@
+CLASS net/minecraft/client/b/k net/minecraft/client/gui/LevelLoaderWindow
+	FIELD a levelFileLoader Lnet/minecraft/client/b/b;

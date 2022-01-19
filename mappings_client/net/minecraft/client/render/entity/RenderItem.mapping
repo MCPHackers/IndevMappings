@@ -1,0 +1,4 @@
+CLASS net/minecraft/client/a/a/d net/minecraft/client/render/entity/RenderItem
+	FIELD c renderBlocks Lnet/minecraft/client/a/e;
+	FIELD d random Ljava/util/Random;
+	METHOD a renderItemIntoGUI (Lnet/minecraft/client/b/l;Lnet/minecraft/client/a/i;Lnet/minecraft/a/c/i;II)V

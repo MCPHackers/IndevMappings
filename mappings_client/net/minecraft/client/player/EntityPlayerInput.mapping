@@ -1,0 +1,2 @@
+CLASS net/minecraft/client/g/c net/minecraft/client/player/EntityPlayerInput
+	FIELD e player Lnet/minecraft/client/g/a;

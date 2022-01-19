@@ -1,0 +1,6 @@
+CLASS net/minecraft/client/b/r net/minecraft/client/gui/GuiNameLevel
+	FIELD a parent Lnet/minecraft/client/b/j;
+	FIELD i title Ljava/lang/String;
+	FIELD j id I
+	FIELD k name Ljava/lang/String;
+	FIELD l counter I

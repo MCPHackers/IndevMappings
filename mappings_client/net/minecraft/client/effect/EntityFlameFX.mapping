@@ -1,0 +1,2 @@
+CLASS net/minecraft/client/f/c net/minecraft/client/effect/EntityFlameFX
+	FIELD Y flameScale F

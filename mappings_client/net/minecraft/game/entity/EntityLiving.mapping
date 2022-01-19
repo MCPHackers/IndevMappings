@@ -1,0 +1,23 @@
+CLASS net/minecraft/a/b/d net/minecraft/game/entity/EntityLiving
+	FIELD M prevRotationYawHead F
+	FIELD N scoreValue I
+	FIELD O attackTime I
+	FIELD R heartsHalvesLife I
+	FIELD S renderYawOffset F
+	FIELD T prevRenderYawOffset F
+	FIELD U health I
+	FIELD V prevHealth I
+	FIELD W hurtTime I
+	FIELD X maxHurtTime I
+	FIELD Y attackedAtYaw F
+	FIELD Z deathTime I
+	FIELD a rotationYawHead F
+	FIELD aa prevCameraPitch F
+	FIELD ab cameraPitch F
+	FIELD ac entityAI Lnet/minecraft/a/b/a;
+	FIELD ad unused0 I
+	FIELD ae unused1 F
+	FIELD af unused2 I
+	METHOD a setEntityAI (Lnet/minecraft/a/b/a;)V
+	METHOD b onDeath (Lnet/minecraft/a/b/c;)V
+	METHOD e onLivingUpdate ()V

@@ -1,0 +1,3 @@
+CLASS net/minecraft/a/a/a/a/a net/minecraft/game/level/block/tileentity/TileEntity
+	METHOD a readFromNBT (Lcom/a/a/c;)V
+	METHOD b writeToNBT (Lcom/a/a/c;)V

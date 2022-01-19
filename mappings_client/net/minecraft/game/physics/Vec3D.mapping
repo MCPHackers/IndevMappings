@@ -1,0 +1,10 @@
+CLASS net/minecraft/a/d/a net/minecraft/game/physics/Vec3D
+	FIELD a xCoord F
+	FIELD b yCoord F
+	FIELD c zCoord F
+	METHOD a addVector (FFF)Lnet/minecraft/a/d/a;
+	METHOD a distance (Lnet/minecraft/a/d/a;)F
+	METHOD a getIntermediateWithXValue (Lnet/minecraft/a/d/a;F)Lnet/minecraft/a/d/a;
+	METHOD b squaredDistanceTo (Lnet/minecraft/a/d/a;)F
+	METHOD b getIntermediateWithYValue (Lnet/minecraft/a/d/a;F)Lnet/minecraft/a/d/a;
+	METHOD c getIntermediateWithZValue (Lnet/minecraft/a/d/a;F)Lnet/minecraft/a/d/a;

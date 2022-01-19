@@ -1,0 +1,6 @@
+CLASS net/minecraft/client/e/a/g net/minecraft/client/model/md3/MD3Model
+	FIELD a vertices Lnet/minecraft/client/e/a/b;
+	FIELD b unknownMD3Bool Z
+	FIELD c frame I
+	METHOD a getTotalFrames ()I
+	METHOD a renderModelVertices (IIF)V

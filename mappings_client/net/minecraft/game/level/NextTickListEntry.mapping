@@ -1,0 +1,6 @@
+CLASS net/minecraft/a/a/d net/minecraft/game/level/NextTickListEntry
+	FIELD a xCoord I
+	FIELD b yCoord I
+	FIELD c zCoord I
+	FIELD d blockID I
+	FIELD e scheduledTime I

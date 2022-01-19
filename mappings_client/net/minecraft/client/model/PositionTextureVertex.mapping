@@ -1,0 +1,2 @@
+CLASS net/minecraft/client/e/d net/minecraft/client/model/PositionTextureVertex
+	FIELD a vector3D Lnet/minecraft/a/d/a;

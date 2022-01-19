@@ -1,0 +1,6 @@
+CLASS net/minecraft/client/a/a/f net/minecraft/client/render/entity/RenderManager
+	FIELD a renderEngine Lnet/minecraft/client/a/i;
+	FIELD b worldObj Lnet/minecraft/a/a/f;
+	FIELD c playerViewY F
+	FIELD d entityRenderMap Ljava/util/Map;
+	METHOD a renderEntityWithPosYaw (Lnet/minecraft/a/b/c;FFFFF)V

@@ -1,0 +1,3 @@
+CLASS net/minecraft/client/g/a net/minecraft/client/player/EntityPlayerSP
+	FIELD a movementInput Lnet/minecraft/client/g/b;
+	FIELD ag mc Lnet/minecraft/client/d;

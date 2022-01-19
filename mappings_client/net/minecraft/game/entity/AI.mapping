@@ -1,0 +1,3 @@
+CLASS net/minecraft/a/b/a net/minecraft/game/entity/AI
+	FIELD a unused I
+	METHOD a onLivingUpdate (Lnet/minecraft/a/a/f;Lnet/minecraft/a/b/d;)V

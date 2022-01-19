@@ -1,0 +1,21 @@
+CLASS com/a/a/c com/mojang/nbt/NBTTagCompound
+	FIELD a tagMap Ljava/util/Map;
+	METHOD a getByte (Ljava/lang/String;)B
+	METHOD a setByte (Ljava/lang/String;B)V
+	METHOD a setFloat (Ljava/lang/String;F)V
+	METHOD a setInteger (Ljava/lang/String;I)V
+	METHOD a setLong (Ljava/lang/String;J)V
+	METHOD a setCompoundTag (Ljava/lang/String;Lcom/a/a/c;)V
+	METHOD a setTag (Ljava/lang/String;Lcom/a/a/j;)V
+	METHOD a setString (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a setShort (Ljava/lang/String;S)V
+	METHOD a setByteArray (Ljava/lang/String;[B)V
+	METHOD b emptyNBTMap ()Z
+	METHOD b getShort (Ljava/lang/String;)S
+	METHOD c getInteger (Ljava/lang/String;)I
+	METHOD d getLong (Ljava/lang/String;)J
+	METHOD e getFloat (Ljava/lang/String;)F
+	METHOD f getString (Ljava/lang/String;)Ljava/lang/String;
+	METHOD g getByteArray (Ljava/lang/String;)[B
+	METHOD h getCompoundTag (Ljava/lang/String;)Lcom/a/a/c;
+	METHOD i getTagList (Ljava/lang/String;)Lcom/a/a/f;

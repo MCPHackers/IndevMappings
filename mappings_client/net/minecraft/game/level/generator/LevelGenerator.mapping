@@ -1,0 +1,19 @@
+CLASS net/minecraft/a/a/b/a net/minecraft/game/level/generator/LevelGenerator
+	FIELD a islandGen Z
+	FIELD b floatingGen Z
+	FIELD c flatGen Z
+	FIELD d levelType I
+	FIELD e guiLoading La/b;
+	FIELD f width I
+	FIELD g depth I
+	FIELD h height I
+	FIELD i rand Ljava/util/Random;
+	FIELD j blocksByteArray [B
+	FIELD k waterLevel I
+	FIELD l groundLevel I
+	FIELD m floodFillBlocks [I
+	METHOD a setNextPhase (I)V
+	METHOD a populateOre (IIII)V
+	METHOD a floodFill (IIIII)J
+	METHOD a generate (Ljava/lang/String;III)Lnet/minecraft/a/a/f;
+	METHOD a growTrees (Lnet/minecraft/a/a/f;)V

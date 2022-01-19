@@ -1,0 +1,4 @@
+CLASS net/minecraft/client/b/a/a net/minecraft/client/gui/container/InventoryCrafting
+	FIELD a stackList [Lnet/minecraft/a/c/i;
+	FIELD b inventoryWidth I
+	FIELD c eventHandler Lnet/minecraft/client/b/a/h;

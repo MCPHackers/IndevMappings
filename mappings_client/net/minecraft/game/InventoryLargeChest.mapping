@@ -1,0 +1,4 @@
+CLASS net/minecraft/a/a net/minecraft/game/InventoryLargeChest
+	FIELD a name Ljava/lang/String;
+	FIELD b upperChest Lnet/minecraft/a/b;
+	FIELD c lowerChest Lnet/minecraft/a/b;

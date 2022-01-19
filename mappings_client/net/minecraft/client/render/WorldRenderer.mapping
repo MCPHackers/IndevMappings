@@ -1,0 +1,25 @@
+CLASS net/minecraft/client/a/h net/minecraft/client/render/WorldRenderer
+	FIELD a chunksUpdated I
+	FIELD b isVisible Z
+	FIELD c needsUpdate Z
+	FIELD d worldObj Lnet/minecraft/a/a/f;
+	FIELD e glRenderList I
+	FIELD f tessellator Lnet/minecraft/client/a/c;
+	FIELD g posX I
+	FIELD h posU I
+	FIELD i posZ I
+	FIELD j sizeWidth I
+	FIELD k sizeHeight I
+	FIELD l sizeDepth I
+	FIELD m skipRenderPass [Z
+	FIELD n posXPlus I
+	FIELD o posYPlus I
+	FIELD p posZPlus I
+	FIELD q rendererBoundingBox Lnet/minecraft/a/d/b;
+	FIELD r renderBlocks Lnet/minecraft/client/a/e;
+	METHOD a updateRenderer ()V
+	METHOD a distanceToEntitySquared (Lnet/minecraft/a/b/d;)F
+	METHOD a updateInFrustrum (Lnet/minecraft/client/a/k;)V
+	METHOD a getGLCallListForPass ([III)I
+	METHOD b stopRendering ()V
+	METHOD c setDontDraw ()V

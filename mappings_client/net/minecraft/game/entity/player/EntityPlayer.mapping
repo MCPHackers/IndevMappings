@@ -1,0 +1,11 @@
+CLASS net/minecraft/a/b/c/a net/minecraft/game/entity/player/EntityPlayer
+	FIELD M inventory Lnet/minecraft/a/b/c/b;
+	FIELD N unusedByte B
+	FIELD O prevCameraYaw F
+	FIELD P cameraYaw F
+	FIELD Q getScore I
+	METHOD a canHarvestBlock (Lnet/minecraft/a/a/a/r;)F
+	METHOD a displayGUIChest (Lnet/minecraft/a/b;)V
+	METHOD a dropPlayerItemWithRandomChoice (Lnet/minecraft/a/c/i;)V
+	METHOD f displayWorkbenchGUI ()V
+	METHOD m getScore ()I

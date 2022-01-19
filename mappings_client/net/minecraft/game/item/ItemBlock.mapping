@@ -1,0 +1,2 @@
+CLASS net/minecraft/a/c/d net/minecraft/game/item/ItemBlock
+	FIELD L blockID I

@@ -1,0 +1,2 @@
+CLASS net/minecraft/client/o net/minecraft/client/EnumOS
+	FIELD a osList [I

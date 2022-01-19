@@ -1,0 +1,8 @@
+CLASS net/minecraft/a/a/e net/minecraft/game/level/EntityMapSlot
+	FIELD a I
+	FIELD b I
+	FIELD c I
+	FIELD d entityMap Lnet/minecraft/a/a/g;
+	METHOD a init (FFF)Lnet/minecraft/a/a/e;
+	METHOD a add (Lnet/minecraft/a/b/c;)V
+	METHOD b remove (Lnet/minecraft/a/b/c;)V

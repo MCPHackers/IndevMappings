@@ -1,0 +1,8 @@
+CLASS net/minecraft/a/b/b/a net/minecraft/game/entity/projectile/EntityArrow
+	FIELD M xTile I
+	FIELD N yTile I
+	FIELD O zTile I
+	FIELD P inTile I
+	FIELD Q inGround Z
+	FIELD R owner Lnet/minecraft/a/b/d;
+	FIELD a arrowShake I

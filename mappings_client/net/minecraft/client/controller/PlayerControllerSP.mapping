@@ -1,0 +1,8 @@
+CLASS net/minecraft/client/c/b net/minecraft/client/controller/PlayerControllerSP
+	FIELD c curBlockX I
+	FIELD d curBlockY I
+	FIELD e curBlockZ I
+	FIELD f curBlockDamage I
+	FIELD g prevBlockDamage I
+	FIELD h blockHitWait I
+	FIELD i mobSpawner Lnet/minecraft/a/a/b;

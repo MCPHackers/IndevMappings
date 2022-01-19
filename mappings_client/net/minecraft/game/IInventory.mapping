@@ -1,0 +1,7 @@
+CLASS net/minecraft/a/b net/minecraft/game/IInventory
+	METHOD a getSizeInventory ()I
+	METHOD a getStackInSlot (I)Lnet/minecraft/a/c/i;
+	METHOD a decrStackSize (II)Lnet/minecraft/a/c/i;
+	METHOD a setInventorySlotContents (ILnet/minecraft/a/c/i;)V
+	METHOD b getInvName ()Ljava/lang/String;
+	METHOD c getInventoryStackLimit ()I

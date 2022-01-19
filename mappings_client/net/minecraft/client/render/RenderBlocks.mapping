@@ -1,0 +1,18 @@
+CLASS net/minecraft/client/a/e net/minecraft/client/render/RenderBlocks
+	FIELD a tessellator Lnet/minecraft/client/a/c;
+	FIELD b blockAccess Lnet/minecraft/a/a/f;
+	FIELD c overrideBlockTexture I
+	FIELD d flipTexture Z
+	METHOD a shouldSideBeRendered (III)F
+	METHOD a renderBlockOnInventory (Lnet/minecraft/a/a/a/r;)V
+	METHOD a renderBlockPlant (Lnet/minecraft/a/a/a/r;FFF)V
+	METHOD a renderBlockTorch (Lnet/minecraft/a/a/a/r;FFFFF)V
+	METHOD a renderBlockBottom (Lnet/minecraft/a/a/a/r;FFFI)V
+	METHOD a renderBlockAllFaces (Lnet/minecraft/a/a/a/r;III)V
+	METHOD a renderBlockAllFaces (Lnet/minecraft/a/a/a/r;IIII)V
+	METHOD b renderBlockTop (Lnet/minecraft/a/a/a/r;FFFI)V
+	METHOD b renderBlockByRenderType (Lnet/minecraft/a/a/a/r;III)Z
+	METHOD b renderBlockNorth (Lnet/minecraft/a/a/a/r;IIII)V
+	METHOD c renderBlockSouth (Lnet/minecraft/a/a/a/r;IIII)V
+	METHOD d renderBlockWest (Lnet/minecraft/a/a/a/r;IIII)V
+	METHOD e renderBlockEast (Lnet/minecraft/a/a/a/r;IIII)V

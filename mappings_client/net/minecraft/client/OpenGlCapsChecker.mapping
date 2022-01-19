@@ -1,0 +1,2 @@
+CLASS net/minecraft/client/i net/minecraft/client/OpenGlCapsChecker
+	FIELD a cap Z
