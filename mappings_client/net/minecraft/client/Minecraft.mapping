@@ -11,8 +11,8 @@ CLASS net/minecraft/client/d net/minecraft/client/Minecraft
 	FIELD J tempDisplayHeight I
 	FIELD K applet Lnet/minecraft/client/MinecraftApplet;
 	FIELD L serverIp Ljava/lang/String;
-	FIELD M textureLavaFX Lnet/minecraft/client/a/b/f;
-	FIELD N textureWaterFX Lnet/minecraft/client/a/b/d;
+	FIELD M textureWaterFX Lnet/minecraft/client/a/b/f;
+	FIELD N textureLavaFX Lnet/minecraft/client/a/b/d;
 	FIELD O prevFrameTime I
 	FIELD a playerController Lnet/minecraft/client/c/a;
 	FIELD b displayWidth I
